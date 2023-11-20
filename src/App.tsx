@@ -9,7 +9,7 @@ ContactUs = 'contactus'
 }
 
 function App() {
-  const [selectedPage , setSelectedPage] = useState<SelectedPage>("home")
+  const [selectedPage , setSelectedPage] = useState<SelectedPage>(SelectedPage.Home)
   return (
     <div className=" app  bg-gray-20 ">
    <Navbar 
