@@ -6,7 +6,7 @@ UserGroupIcon ,
 AcademicCapIcon} from "@heroicons/react/24/solid"
 import { motion } from "framer-motion";
 import Benefit from "./Benefit";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png"
+import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.jpg"
 import ActionButton from "@/shared/ActionButton";
 
 
@@ -95,7 +95,7 @@ const Benefits = ({setSelectedPage}: Props) => {
        {/* GRAPHICS AND DISCRIPTION */}
        <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
         {/*GRAPHIC */}
-        <img className="mx-auto"
+        <img className="md:before:content-evolvetext rounded-xl md:w-1/3 "
         alt="benefits-page-graphic"
         src={BenefitsPageGraphic}
         />

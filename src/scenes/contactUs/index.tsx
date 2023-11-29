@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png"
+import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.jpeg"
 import HText from "@/shared/HText";
 
 
@@ -142,7 +142,7 @@ formState:{errors}
       >
         <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
           <img 
-          className="w-full"
+          className="w-full rounded-xl"
           src={ContactUsPageGraphic} alt="contact-us-page-graphic" />
         </div>
        </motion.div>
