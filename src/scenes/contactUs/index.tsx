@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.jpeg"
+import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png"
 import HText from "@/shared/HText";
 
 
@@ -121,7 +121,7 @@ formState:{errors}
             )}
             <button
             type="submit"
-            className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white "
+            className="mt-5 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-20 py-3 hover:text-white "
             >
             SUBMIT
 
@@ -142,7 +142,7 @@ formState:{errors}
       >
         <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
           <img 
-          className="w-full rounded-xl"
+          className="w-full"
           src={ContactUsPageGraphic} alt="contact-us-page-graphic" />
         </div>
        </motion.div>
